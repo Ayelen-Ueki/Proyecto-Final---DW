@@ -1,0 +1,50 @@
+* {
+  margin: 0rem;
+  border: 0rem;
+  padding: 0rem; }
+
+li {
+  list-style: none; }
+
+a {
+  text-decoration: none; }
+
+.navbar-brand {
+  display: flex;
+  align-items: center; }
+  .navbar-brand img {
+    width: 5rem;
+    height: 5rem;
+    padding: 1rem; }
+
+.content {
+  padding: 1rem; }
+
+.feelin {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 0rem 1rem 0rem; }
+
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+button {
+  border: solid;
+  border-radius: 0.25rem;
+  border-color: #FF7800;
+  background-color: #FFBC97; }
+
+.antojos {
+  font-weight: bold; }
+
+.alfajorcitos {
+  color: #FFE300; }
+
+.alfajorcitosRogel {
+  color: #FF7800; }
+
+.cookies {
+  color: #52dc1b; }

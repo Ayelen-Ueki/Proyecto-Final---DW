@@ -1,9 +1,18 @@
 .navbar-brand{
     display: flex;
     align-items: center;
+    position: relative;
+    height: 2rem;
     img{
-        width: 5rem;
-        height: 5rem;
-        padding: 1rem;
+        width: 7rem;
+        height: 7rem;
+        margin-top: 3rem;
+        margin-right: 1rem;
+        position: inherit;
+        overflow-y: visible;
     }
+}
+header{
+    display: flex;
+    width: 100%;
 }

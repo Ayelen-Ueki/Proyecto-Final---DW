@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@300&family=Fira+Sans:wght@100&family=Hind+Siliguri:wght@300&family=IBM+Plex+Sans:wght@500&display=swap");
 * {
   margin: 0rem;
   border: 0rem;
@@ -11,11 +12,20 @@ a {
 
 .navbar-brand {
   display: flex;
-  align-items: center; }
+  align-items: center;
+  position: relative;
+  height: 2rem; }
   .navbar-brand img {
-    width: 5rem;
-    height: 5rem;
-    padding: 1rem; }
+    width: 7rem;
+    height: 7rem;
+    margin-top: 3rem;
+    margin-right: 1rem;
+    position: inherit;
+    overflow-y: visible; }
+
+header {
+  display: flex;
+  width: 100%; }
 
 .content {
   padding: 1rem; }
@@ -48,3 +58,18 @@ button {
 
 .cookies {
   color: #52dc1b; }
+
+article {
+  display: flex;
+  flex-direction: column;
+  position: inherit; }
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  position: inherit;
+  height: 5rem;
+  font-size: 70%;
+  line-height: 1.5rem;
+  padding-bottom: 1rem; }

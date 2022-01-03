@@ -39,3 +39,9 @@ $productos:(
         color:$color;
     }
 }
+
+article{
+    display: flex;
+    flex-direction: column;
+    position: inherit;
+}

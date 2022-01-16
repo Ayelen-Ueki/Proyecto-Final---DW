@@ -1,3 +1,5 @@
+@import"../componentes/transformaciones.scss";
+
 .navbar-brand{
     display: flex;
     align-items: center;
@@ -8,8 +10,12 @@
         height: 7rem;
         margin-top: 3rem;
         margin-right: 1rem;
-        position: inherit;
         overflow-y: visible;
+        animation-name: rotacion;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in;
+        animation-duration: 1s;
+        animation-delay: 0.5s;
     }
 }
 header{

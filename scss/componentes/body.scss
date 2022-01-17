@@ -1,5 +1,4 @@
 @import"../componentes/variables.scss";
-@import"../componentes/transformaciones.scss";
 
 .content
 {
@@ -29,6 +28,10 @@ button{
     font-weight: bold;
 }
 
+.productos{
+    margin: 2rem;
+}
+
 $productos:(
     alfajorcitos: #FFE300,
     alfajorcitosRogel: #FF7800,
@@ -49,7 +52,7 @@ article{
 
 #carousel{
     display: flex;
-    width: 50%;
+    width: 40%;
 }
 
 .inicio{
@@ -63,4 +66,34 @@ article{
     border-radius: 2rem;
     border-width: thick;
     border-color: $color-naranjafeelin;
+}
+
+body{
+    .contacto{
+        background-image: url("../../imagenes/banner\ tartas.jpeg");
+        background-size: 100%;
+    }
+}
+
+.fotoProductos{
+    height: 10rem;
+    width: 15rem;
+    border-radius: 2rem;
+}
+
+.preguntas{
+    padding:2rem;
+}
+
+.respuesta{
+  padding: 2rem;
+  margin: 0rem 1rem 2rem 1rem;
+}
+.fotosPreguntas{
+    padding: 1rem;
+}
+.botonesPreguntas{
+   .btn {
+    margin: 1rem 3rem 1rem 3rem;
+   } 
 }

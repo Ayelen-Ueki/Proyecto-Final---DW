@@ -10,18 +10,28 @@ li {
 a {
   text-decoration: none; }
 
+@keyframes rotacion {
+  100% {
+    -webkit-transform: rotate(360deg); } }
+
 .navbar-brand {
   display: flex;
   align-items: center;
   position: relative;
   height: 2rem; }
-  .navbar-brand img {
+  .navbar-brand .rounded-circle {
     width: 7rem;
     height: 7rem;
     margin-top: 3rem;
     margin-right: 1rem;
-    position: inherit;
-    overflow-y: visible; }
+    overflow-y: visible;
+    animation-name: rotacion;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    animation-duration: 1s;
+    animation-delay: 0.5s; }
+  .navbar-brand h1:hover {
+    color: #FF7800; }
 
 header {
   display: flex;
@@ -50,6 +60,9 @@ button {
 .antojos {
   font-weight: bold; }
 
+.productos {
+  margin: 2rem; }
+
 .alfajorcitos {
   color: #FFE300; }
 
@@ -66,7 +79,7 @@ article {
 
 #carousel {
   display: flex;
-  width: 50%; }
+  width: 40%; }
 
 .inicio {
   display: flex;
@@ -78,6 +91,28 @@ article {
   border-radius: 2rem;
   border-width: thick;
   border-color: #FF7800; }
+
+body .contacto {
+  background-image: url("../../imagenes/banner tartas.jpeg");
+  background-size: 100%; }
+
+.fotoProductos {
+  height: 10rem;
+  width: 15rem;
+  border-radius: 2rem; }
+
+.preguntas {
+  padding: 2rem; }
+
+.respuesta {
+  padding: 2rem;
+  margin: 0rem 1rem 2rem 1rem; }
+
+.fotosPreguntas {
+  padding: 1rem; }
+
+.botonesPreguntas .btn {
+  margin: 1rem 3rem 1rem 3rem; }
 
 footer {
   display: flex;

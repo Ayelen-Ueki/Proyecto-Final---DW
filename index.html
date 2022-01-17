@@ -18,13 +18,13 @@
 
 <body class="container-fluid">
     <main>
-        <header>
+        <header class="sticky-top">
             <nav class="navbar navbar-expand-lg navbar-light bg-warning container-fluid">
                 <div class="container-fluid">
                     <nav class="navbar navbar-light bg-warning">
                         <div>
                             <a class="navbar-brand">
-                                <img class="rounded-circle" src="imagenes/FeelinPasteleria.png" alt="Logo Feelin">
+                                <img id="logo" class="rounded-circle" src="imagenes/FeelinPasteleria.png" alt="Logo Feelin">
                                 <h1>Feelin Pastelería</h1>
                             </a>
                         </div>
@@ -49,7 +49,7 @@
                                     Antojate
                                 </a>
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <li><a class="dropdown-item" href="#">Tortas</a></li>
+                                    <li><a class="dropdown-item" href="paginas/Tortas.html">Tortas</a></li>
                                     <li><a class="dropdown-item" href="paginas/AlfajoresYCookies.html">Alfajores y
                                             cookies</a>
                                     </li>
@@ -67,7 +67,7 @@
                             </li>
                         </ul>
                         <form class="d-flex">
-                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
                             <button class="btn btn-outline-success" type="submit">Buscar</button>
                         </form>
                     </div>
@@ -87,24 +87,33 @@
                         aria-label="Slide 2"></button>
                     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
                         aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+                        aria-label="Slide 4"></button>
                 </div>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="imagenes/foto torta frutilla.png" class="d-block w-100" alt="...">
+                        <img src="imagenes/foto torta frutilla.png" class="d-block w-100" alt="Foto Torta de Frutilla">
                         <div class="carousel-caption d-none d-md-block">
                             <h5>Tortas</h5>
-                            <p>Tenemos tortas para todos los gustos!</p>
+                            <p>Tenemos tortas para todos los gustos! ... </p>
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <img src="imagenes/foto cookies.png" class="d-block w-100" alt="...">
+                        <img src="imagenes/foto tarta.png" class="d-block w-100" alt="Foto Tarta de frutos Secos">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Tartas</h5>
+                            <p>Tartas de varios tipos ... </p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="imagenes/foto cookies.png" class="d-block w-100" alt="Foto Cookies">
                         <div class="carousel-caption d-none d-md-block">
                             <h5>Cookies</h5>
-                            <p>Las más ricas cookies</p>
+                            <p>Las más ricas cookies ... </p>
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <img src="imagenes/foto alfajorcitos.png" class="d-block w-100" alt="...">
+                        <img src="imagenes/foto alfajorcitos.png" class="d-block w-100" alt="Foto Alfajorcitos">
                         <div class="carousel-caption d-none d-md-block">
                             <h5>Alfajorcitos</h5>
                             <p>Y más!</p>
@@ -126,19 +135,18 @@
     </main>
     <footer class="bg-warning container-fluid">
         <div class="col">
-            <a href=""> Preguntas frecuentes </a>
+            <a href="paginas/PreguntasFrecuentes.html"> Preguntas frecuentes </a>
         </div>
         <div class="col">
             Ante cualquier duda podés comunicarte a través de:
             <div>
-                <a href=""> <img width=20px src="imagenes/Whatsapp Logo.png" alt="Whatsapp Logo"> </a>
-                <a href="mailto:aye_ueki_011@hotmail.com subject=consulta"> <img width=20px src="imagenes/Mail Icon.png"
-                        alt="Mail Icon"> </a>
-                <a href=""> <img width=20px src="imagenes/FacebookLogo.png" alt="Facebook Logo"> </a>
+                <a href="https://api.whatsapp.com/send?phone=+5491136430055" target="_blank"> <img width=20px
+                        src="imagenes/Whatsapp Logo.png" alt="Whatsapp Logo"> </a>
+                <a href="mailto:aye_ueki_011@hotmail.com" target="_blank"> <img width=20px
+                        src="imagenes/Mail Icon.png" alt="Mail Icon"> </a>
                 <a href="https://www.instagram.com/feelin.pasteleria/?hl=es-la" target="_blank"> <img width=20px
                         src="imagenes/InstagramLogo.png" alt="Instagram Logo"> </a>
             </div>
-        </div>
         </div>
     </footer>
     </div>

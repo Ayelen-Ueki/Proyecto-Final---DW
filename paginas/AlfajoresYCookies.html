@@ -16,13 +16,13 @@
 
 <body class="container-fluid">
     <main>
-        <header>
+        <header class="sticky-top">
             <nav class="navbar navbar-expand-lg navbar-light bg-warning container-fluid">
                 <div class="container-fluid">
                     <nav class="navbar navbar-light bg-warning">
                         <div>
                             <a class="navbar-brand" href="../">
-                                <img class="rounded-circle" src="../imagenes/FeelinPasteleria.png" alt="">
+                                <img id="logo" class="rounded-circle" src="../imagenes/FeelinPasteleria.png" alt="">
                                 <h1>Feelin Pastelería</h1>
                             </a>
                         </div>
@@ -48,7 +48,7 @@
                                 </a>
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                     <li><a class="dropdown-item" href="Tortas.html">Tortas</a></li>
-                                    <li><a class="dropdown-item" href="../paginas/AlfajoresYCookies.html">Alfajores y cookies</a>
+                                    <li><a class="dropdown-item" href="AlfajoresYCookies.html">Alfajores y cookies</a>
                                     </li>
                                     <li>
                                         <hr class="dropdown-divider">
@@ -63,8 +63,13 @@
                                 <a class="nav-link" href="../paginas/Contacto.html">Contacto</a>
                             </li>
                         </ul>
-                        <form class="d-flex">
-                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <div class="nav-item">
+                            <a class="navbar-brand" href="Carrito.html">
+                              <img src="../imagenes/cart icon.png" alt="" width="25" height="25">
+                            </a>
+                          </div>
+                          <form class="d-flex">
+                            <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
                             <button class="btn btn-outline-success" type="submit">Buscar</button>
                         </form>
                     </div>
@@ -74,7 +79,7 @@
         <section>
             <main class="justify-content-start p-4 content antojos">
                 <h1 class="text-center">Nuestros productos</h1>
-                <div class="conteiner-fluid">
+                <div class="productos conteiner-fluid">
                     <div class="row">
                         <div class="col text-center">
                             <li class="alfajorcitos"> Alfajorcitos
@@ -111,17 +116,18 @@
     </main>
     <footer class="bg-warning container-fluid">
         <div class="col">
-            <a href=""> Preguntas frecuentes </a>
+            <a href="PreguntasFrecuentes.html"> Preguntas frecuentes </a>
         </div>
         <div class="col">
             Ante cualquier duda podés comunicarte a través de:
             <div>
-                <a href=""> <img width=20px src="../imagenes/Whatsapp Logo.png" alt="Whatsapp Logo"> </a>
-                <a href=""> <img width=20px src="../imagenes/Mail Icon.png" alt="Mail Icon"> </a>
-                <a href=""> <img width=20px src="../imagenes/FacebookLogo.png" alt="Facebook Logo"> </a>
-                <a href="https://www.instagram.com/feelin.pasteleria/?hl=es-la" target="_blank"> <img width=20px src="../imagenes/InstagramLogo.png" alt="Instagram Logo"> </a>
+                <a href="https://api.whatsapp.com/send?phone=+5491136430055" target="_blank"> <img width=20px
+                        src="../imagenes/Whatsapp Logo.png" alt="Whatsapp Logo"> </a>
+                <a href="mailto:aye_ueki_011@hotmail.com" target="_blank"> <img width=20px
+                        src="../imagenes/Mail Icon.png" alt="Mail Icon"> </a>
+                <a href="https://www.instagram.com/feelin.pasteleria/?hl=es-la" target="_blank"> <img width=20px
+                        src="../imagenes/InstagramLogo.png" alt="Instagram Logo"> </a>
             </div>
-        </div>
         </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"

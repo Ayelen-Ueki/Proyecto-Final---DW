@@ -1,11 +1,12 @@
 @import"../componentes/transformaciones.scss";
+@import"../componentes/variables.scss";
 
 .navbar-brand{
     display: flex;
     align-items: center;
     position: relative;
     height: 2rem;
-    img{
+    .rounded-circle{
         width: 7rem;
         height: 7rem;
         margin-top: 3rem;
@@ -17,8 +18,15 @@
         animation-duration: 1s;
         animation-delay: 0.5s;
     }
+    h1{
+        &:hover{
+            color: $color-naranjafeelin;
+        }
+    }
 }
 header{
     display: flex;
     width: 100%;
 }
+
+

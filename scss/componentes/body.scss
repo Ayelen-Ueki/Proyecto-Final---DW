@@ -69,10 +69,21 @@ article{
 }
 
 body{
-    .contacto{
-        background-image: url("../../imagenes/banner\ tartas.jpeg");
+    .background{
+        background-image: url("../../imagenes/Background.jpg");
         background-size: 100%;
     }
+}
+
+.linkRecetas{
+    font-size: 0.75rem;
+}
+
+.brownieVegano{
+    border: solid;
+    border-color: $color-naranjafeelin;
+    border-width: thick;
+    border-radius: 2rem;
 }
 
 .fotoProductos{

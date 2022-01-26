@@ -1,0 +1,12 @@
+@import"../componentes/transformaciones.scss";
+@import"../componentes/variables.scss";
+
+$tablet-breakpoint: 769px;
+
+@media (max-width: $tablet-breakpoint) 
+{
+    .rounded-circle{
+        width: 350%;
+        height: 350%;
+    }
+}
